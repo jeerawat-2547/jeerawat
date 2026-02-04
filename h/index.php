@@ -22,14 +22,14 @@ Password <input type ="password" name="apwd" require><br>
         $data = mysqli_fetch_array($rs)
         $_SESSION['aid'] = $data['a_id'];
         $_SESSION['aname'] = $data['a_name'];
-        echo"<scrip>";
+        echo"<script>";
         echo"window.localtion='index2.php';";
-        echo"</scrip>";
+        echo"</script>";
 
     }else{
-        echo"<scrip>";
+        echo"<script>";
         echo"alert(Username หรือ Password ไม่ถูกต้อง);";
-        echo"</scrip>";
+        echo"</script>";
     }
 ?>
 </body>
