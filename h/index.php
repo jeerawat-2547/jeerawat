@@ -11,5 +11,26 @@ Username <input type ="text" name="auser" autofocus require><br>
 Password <input type ="password" name="apwd" require><br>
 <button type="submit" name="Submit">LOGIN</button>
 </form>
+<?php
+    if(isset($_POST['Submit'])){
+        include_once("connectdb.php");
+        $sql = "SELECT*FORM admin WHERE a_username='{$_POST['auser']}' AND a_password='{$_POST['apwd']}' LIMIT 1 ";
+        $rs = mysqli_query($conn,$sql);
+        $num = mysqli_num_rows($rs);
+
+        echo ($num == 1)  
+        $data = mysqli_fetch_array($rs)
+        $_SESSION['aid'] = $data['a_id'];
+        $_SESSION['aname'] = $data['a_name'];
+        echo"<scrip>";
+        echo"window.localtion='index2.php';";
+        echo"</scrip>";
+
+    }else{
+        echo"<scrip>";
+        echo"alert(Username หรือ Password ไม่ถูกต้อง);";
+        echo"</scrip>";
+    }
+?>
 </body>
 </html>
