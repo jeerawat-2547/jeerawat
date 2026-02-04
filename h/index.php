@@ -18,8 +18,8 @@ Password <input type ="password" name="apwd" require><br>
         $rs = mysqli_query($conn,$sql);
         $num = mysqli_num_rows($rs);
 
-        echo ($num == 1)  
-        $data = mysqli_fetch_array($rs)
+        echo ($num == 1){ 
+        $data = mysqli_fetch_array($rs);
         $_SESSION['aid'] = $data['a_id'];
         $_SESSION['aname'] = $data['a_name'];
         echo"<script>";
@@ -28,8 +28,9 @@ Password <input type ="password" name="apwd" require><br>
 
     }else{
         echo"<script>";
-        echo"alert(Username หรือ Password ไม่ถูกต้อง);";
+        echo"alert('Username หรือ Password ไม่ถูกต้อง');";
         echo"</script>";
+    }
     }
 ?>
 </body>
