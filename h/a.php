@@ -13,7 +13,7 @@
 <?php 
     echo $_SESSION['name']="จีรวัฒน์ ศักดิ์วงษ์"
     echo $_SESSION['nickname']="อิคคิว"
-    echo $_SESSION['p1']="อิคคิว"
+    echo $_SESSION['p1']="โซฟา"
     echo $_SESSION['p2']="ห่วงยาง"
 ?>   
 </body>
