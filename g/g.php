@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>จีรวัฒน์ ศักดิ์วงษ์ (อิคคิว)</title>
+<title>จีรวัฒน์ ศักดิ์fwerwafffwqggerwวงษ์ (อิคคิว)</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
     .chart-container { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }
