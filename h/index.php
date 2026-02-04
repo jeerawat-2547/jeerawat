@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+?>
 <!doctype html>
 <html>
 <head>
@@ -14,16 +17,16 @@ Password <input type ="password" name="apwd" require><br>
 <?php
     if(isset($_POST['Submit'])){
         include_once("connectdb.php");
-        $sql = "SELECT*FORM admin WHERE a_username='{$_POST['auser']}' AND a_password='{$_POST['apwd']}' LIMIT 1 ";
+        $sql = "SELECT * FROM admin WHERE a_username='{$_POST['auser']}' AND a_password='{$_POST['apwd']}' LIMIT 1 ";
         $rs = mysqli_query($conn,$sql);
         $num = mysqli_num_rows($rs);
 
-        echo ($num == 1){ 
+        if ($num == 1){ 
         $data = mysqli_fetch_array($rs);
         $_SESSION['aid'] = $data['a_id'];
         $_SESSION['aname'] = $data['a_name'];
         echo"<script>";
-        echo"window.localtion='index2.php';";
+        echo"window.location='index2.php';";
         echo"</script>";
 
     }else{
