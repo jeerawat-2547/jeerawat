@@ -6,6 +6,6 @@
 </head>
 
 <body>
-<img src="1.png" width="400">
+<img src="images/1.png" width="400">
 </body>
 </html>
