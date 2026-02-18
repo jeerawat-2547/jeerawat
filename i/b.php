@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>จีรวัฒน์ ศักดิ์วงษ์ 66010914003 </title>
 </head>
 <body>
 
-<h1>66010914015 ภาคภูมิ วรรณชัย (แมนนนน)</h1>
+<h1>จีรวัฒน์ ศักดิ์วงษ์ 66010914003</h1>
 
 <form method="post" action="" enctype="multipart/form-data">
     ชื่อจังหวัด<input type="text" name="pname" autofocus require><br>
@@ -14,7 +14,7 @@
     ภาค
     <select name="rid">
     <?php
-include_once("conectdb.php");
+include_once("connectdb.php");
 $sql3 = "SELECT * FROM regions";
 $rs3 = mysqli_query($conn,$sql3);
 while ($data3 = mysqli_fetch_array($rs3)){
