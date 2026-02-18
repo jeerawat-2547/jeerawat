@@ -9,14 +9,14 @@
     <h1>จีรวัฒน์ ศักดิ์วงษ์ (อิคคิว)</h1>
 
     <button type="submit" name="Submit" style="background-color: green; color: white;">
-        <img src="images/1.jpg" width="400"><br>
+        <img src="img/1.jpg" width="400"><br>
         รูปจีรวัฒน์ ศักดิ์วงษ์ (อิคคิว)
     </button>
     
     <br><br>
 
     <button type="submit" name="Submit" style="background-color: orange; color: white;">
-        <img src="images/j.jpg" width="400"><br>
+        <img src="img/j.jpg" width="400"><br>
         รูปอาจารย์เอกชัย
     </button>
 
