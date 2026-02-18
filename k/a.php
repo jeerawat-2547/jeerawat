@@ -7,9 +7,18 @@
 
 <body>
     <h1>จีรวัฒน์ ศักดิ์วงษ์ (อิคคิว)</h1>
-<button type = "submit" name="Submit" img src="images/1.jpg" width="400"> รูปจีรวัฒน์ ศักดิ์วงษ์ (อิคคิว)</button><br>
-<button type = "submit" name="Submit" img src="images/j.jpg" width="400"> รูปอาจารย์เอกชัย </button>
 
+    <button type="submit" name="Submit" style="background-color: green; color: white;">
+        <img src="images/1.jpg" width="400"><br>
+        รูปจีรวัฒน์ ศักดิ์วงษ์ (อิคคิว)
+    </button>
+    
+    <br><br>
+
+    <button type="submit" name="Submit" style="background-color: orange; color: white;">
+        <img src="images/j.jpg" width="400"><br>
+        รูปอาจารย์เอกชัย
+    </button>
 
 </body>
 </html>
