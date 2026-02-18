@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    <h1>จีรวัฒน์ ศักดิ์วงษ์ (อิคคิว)</h1>
 <img src="images/1.jpg" width="400">
 </body>
 </html>
